@@ -18,6 +18,10 @@
                     Console.WriteLine("Intermediate");
                     break;
 
+                case "Asynchronous" or "LINQ" or "Delegates":
+                    Console.WriteLine("Advanced");
+                    break;
+
                 default:
                     Console.WriteLine("Unknown course");
                     break;
